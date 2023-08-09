@@ -1,0 +1,153 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-brand-iris: #4d5ae5;
+  --pressed-state-ocean: #404bbf;
+  --dark-navy-blue: #2e2f42;
+  --sucess-green: #31d0aa;
+  --text-slate: #434455;
+  --subtle-text-light-slate: #8e8f99;
+  --accent-cornflower: #e7e9fc;
+  --light-cloud: #f4f4fd;
+  --modal-overley: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text-slate);
+  background-color: var(--white-background);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title-section {
+  color: var(--dark-navy-blue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* хедер */
+.web-logo {
+  color: var(--primary-brand-iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio-logo {
+  color: var(--dark-navy-blue);
+}
+
+.page-link {
+  color: var(--dark-navy-blue);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: var(--pressed-state-ocean);
+}
+
+.address {
+  font-style: normal;
+}
+
+.contact-link {
+  color: var(--text-slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--pressed-state-ocean);
+}
+
+/* секція 1 */
+.hero-color {
+  background-color: var(--dark-navy-blue);
+}
+
+.hero-title {
+  color: var(--white-background);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  background-color: var(--primary-brand-iris);
+  color: var(--white-background);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-ocean);
+}
+
+/* секція 2 */
+.list-title {
+  color: var(--dark-navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-slate);
+}
+
+/* секція 3 */
+
+.our-team-section {
+  background-color: var(--light-cloud);
+}
+
+.list-team {
+  background-color: var(--white-background);
+}
+
+/* портфоліо */
+
+/* футер */
+.footer-text {
+  color: var(--light-cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-color {
+  background-color: var(--dark-navy-blue);
+}
+
+.studio-logo-footer {
+  color: var(--light-cloud);
+}
