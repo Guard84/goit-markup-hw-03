@@ -28,7 +28,7 @@ p {
   margin: 0;
 }
 
-ul, ol {
+ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
@@ -40,6 +40,18 @@ a {
 
 img {
   display: block;
+}
+
+.container { 
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 156px;
+margin-right: 156px;
+}
+
+.section {
+  margin: 120px 0;
 }
 
 .title-section {
