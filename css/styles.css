@@ -20,12 +20,26 @@ body {
   background-color: var(--white-background);
 }
 
-ul {
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
 }
 
 .title-section {
