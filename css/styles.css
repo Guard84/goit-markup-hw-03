@@ -1,5 +1,5 @@
 :root {
-  --primary-font: "Roboto", sans-serif;
+  --primary-font: 'Roboto', sans-serif;
   --primary-brand-iris: #4d5ae5;
   --pressed-state-ocean: #404bbf;
   --dark-navy-blue: #2e2f42;
@@ -20,7 +20,9 @@ body {
   background-color: var(--white-background);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -42,16 +44,17 @@ img {
   display: block;
 }
 
-.container { 
-max-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: 156px;
-margin-right: 156px;
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 .section {
-  margin: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-section {
@@ -65,9 +68,28 @@ margin-right: 156px;
 }
 
 /* хедер */
+
+.page-header {
+  border-bottom: 1px solid var(--accent-cornflower);
+}
+
+.page-header .container {
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
 .web-logo {
   color: var(--primary-brand-iris);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -119,6 +141,8 @@ margin-right: 156px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding-bottom: 48px;
+  width: 496px;
 }
 
 .hero-button {
@@ -128,6 +152,11 @@ margin-right: 156px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
