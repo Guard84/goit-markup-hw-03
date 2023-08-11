@@ -142,21 +142,16 @@ img {
   padding: 188px 0;
 }
 
-.hero .container {
-  display: block;
-}
-
 .hero-title {
   color: var(--white-background);
-  text-align: center;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -172,6 +167,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: auto;
 }
 
 .hero-button:hover,
@@ -180,11 +176,6 @@ img {
 }
 
 /* секція 2 */
-
-.title-section {
-  text-align: center;
-  padding-bottom: 72px;
-}
 
 .visually-hidden {
   position: absolute;
